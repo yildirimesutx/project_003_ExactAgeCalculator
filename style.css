@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background-image: url('https://picsum.photos/id/121/1900/1200');
+}
+
+h1{
+   display: flex;
+   justify-content: center;
+   margin-top: 10rem;
+   margin-bottom: 3rem;
+   font-family: 'Montserrat', sans-serif;
+ 
+}
+
+.boxtime{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+
+
+    
+}
+.time{
+ border:1px solid black ;
+ margin :2rem ; 
+ height: 5rem;
+ width: 6rem;
+ text-align: center;
+ font-size: 1.5rem;
+ border-radius: 1rem;
+ font-family: 'Montserrat', sans-serif;
+}
+
+#select{
+    display:flex;
+    justify-content: center;
+
+}
+
+.label{
+    margin:10px;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#myDate{
+    margin: 10px;
+    width: 16rem;
+}
+
+#reset{
+    margin: 10px;
+    margin-left: 6rem;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#myDate{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:500px) {
+
+    .boxtime{
+        display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-template-rows: repeat(3,1fr);
+       margin-bottom: 3rem;
+    }
+    .time{
+        color: black;
+        border-color:black;
+        margin-bottom: 3rem;
+    }
+    h1{
+        color:black;
+        margin-top: 3rem;
+    }
+    body{
+        background-image: url('https://picsum.photos/id/54/500/900') ;
+    }
+    .label{
+        color: white;
+    }
+    
+}
