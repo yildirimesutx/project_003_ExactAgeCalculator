@@ -55,6 +55,8 @@ function exact() {
     birthDayHours.innerHTML = hours ;
     birthDayMinutes.innerHTML = minutes;
     birthDaySeconds.innerHTML = seconds;
+    setInterval(exact,1000);
+    
 
 };
 

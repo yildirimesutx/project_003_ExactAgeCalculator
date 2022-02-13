@@ -76,19 +76,22 @@ h1{
        margin-bottom: 3rem;
     }
     .time{
-        color: black;
-        border-color:black;
+        color: white;
+       
         margin-bottom: 3rem;
+        border: 0.5rem solid greenyellow;
     }
     h1{
-        color:black;
+        color:white;
         margin-top: 3rem;
+        margin-right:1rem;
+        text-decoration: underline;
     }
     body{
-        background-image: url('https://picsum.photos/id/54/500/900') ;
+        background-image: url('https://picsum.photos/id/652/500/900') ;
     }
     .label{
-        color: white;
+        color:white;
     }
     
 }
